@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT.AdvertisementApp.Common", "KT.AdvertisementApp.Common\KT.AdvertisementApp.Common.csproj", "{CB62456A-0B44-4C4F-A674-FFCF8CA25639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT.AdvertisementApp.Entities", "KT.AdvertisementApp.Entities\KT.AdvertisementApp.Entities.csproj", "{90A7E11E-AEAD-42EC-BB3D-8AA13D2EC2AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT.AdvertisementApp.DataAccess", "KT.AdvertisementApp.DataAccess\KT.AdvertisementApp.DataAccess.csproj", "{D42BAB32-A239-4842-81AC-A1F9A25FB65F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT.AdvertisementApp.Business", "KT.AdvertisementApp.Business\KT.AdvertisementApp.Business.csproj", "{847291DC-B97B-4E3F-A60B-9E27A9E7D967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT.AdvertisementApp.Web", "KT.AdvertisementApp.Web\KT.AdvertisementApp.Web.csproj", "{13A1BF86-24A0-4BBF-B408-E8B1AEF838C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT.AdvertisementApp.Dtos", "KT.AdvertisementApp.Dtos\KT.AdvertisementApp.Dtos.csproj", "{BA587C41-D708-4276-A89C-E4B862C80BDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB62456A-0B44-4C4F-A674-FFCF8CA25639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB62456A-0B44-4C4F-A674-FFCF8CA25639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB62456A-0B44-4C4F-A674-FFCF8CA25639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB62456A-0B44-4C4F-A674-FFCF8CA25639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A7E11E-AEAD-42EC-BB3D-8AA13D2EC2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A7E11E-AEAD-42EC-BB3D-8AA13D2EC2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A7E11E-AEAD-42EC-BB3D-8AA13D2EC2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A7E11E-AEAD-42EC-BB3D-8AA13D2EC2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D42BAB32-A239-4842-81AC-A1F9A25FB65F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42BAB32-A239-4842-81AC-A1F9A25FB65F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42BAB32-A239-4842-81AC-A1F9A25FB65F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42BAB32-A239-4842-81AC-A1F9A25FB65F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847291DC-B97B-4E3F-A60B-9E27A9E7D967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847291DC-B97B-4E3F-A60B-9E27A9E7D967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847291DC-B97B-4E3F-A60B-9E27A9E7D967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847291DC-B97B-4E3F-A60B-9E27A9E7D967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A1BF86-24A0-4BBF-B408-E8B1AEF838C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A1BF86-24A0-4BBF-B408-E8B1AEF838C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A1BF86-24A0-4BBF-B408-E8B1AEF838C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A1BF86-24A0-4BBF-B408-E8B1AEF838C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA587C41-D708-4276-A89C-E4B862C80BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA587C41-D708-4276-A89C-E4B862C80BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA587C41-D708-4276-A89C-E4B862C80BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA587C41-D708-4276-A89C-E4B862C80BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81592885-CA8E-44B9-9EBC-AEC34AABCC50}
+	EndGlobalSection
+EndGlobal
