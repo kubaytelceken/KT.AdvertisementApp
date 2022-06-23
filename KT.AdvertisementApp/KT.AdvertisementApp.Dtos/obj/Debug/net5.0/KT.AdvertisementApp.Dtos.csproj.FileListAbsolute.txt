@@ -1,0 +1,12 @@
+D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Dtos\bin\Debug\net5.0\KT.AdvertisementApp.Dtos.deps.json
+D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Dtos\bin\Debug\net5.0\KT.AdvertisementApp.Dtos.dll
+D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Dtos\bin\Debug\net5.0\ref\KT.AdvertisementApp.Dtos.dll
+D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Dtos\bin\Debug\net5.0\KT.AdvertisementApp.Dtos.pdb
+D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Dtos\obj\Debug\net5.0\KT.AdvertisementApp.Dtos.csproj.AssemblyReference.cache
+D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Dtos\obj\Debug\net5.0\KT.AdvertisementApp.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Dtos\obj\Debug\net5.0\KT.AdvertisementApp.Dtos.AssemblyInfoInputs.cache
+D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Dtos\obj\Debug\net5.0\KT.AdvertisementApp.Dtos.AssemblyInfo.cs
+D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Dtos\obj\Debug\net5.0\KT.AdvertisementApp.Dtos.csproj.CoreCompileInputs.cache
+D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Dtos\obj\Debug\net5.0\KT.AdvertisementApp.Dtos.dll
+D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Dtos\obj\Debug\net5.0\ref\KT.AdvertisementApp.Dtos.dll
+D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Dtos\obj\Debug\net5.0\KT.AdvertisementApp.Dtos.pdb

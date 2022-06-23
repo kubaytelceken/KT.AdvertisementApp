@@ -17,3 +17,5 @@ D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Business\obj\Debug\net5.0\KT.Adve
 D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Business\obj\Debug\net5.0\KT.AdvertisementApp.Business.dll
 D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Business\obj\Debug\net5.0\ref\KT.AdvertisementApp.Business.dll
 D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Business\obj\Debug\net5.0\KT.AdvertisementApp.Business.pdb
+D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Business\bin\Debug\net5.0\KT.AdvertisementApp.Dtos.dll
+D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Business\bin\Debug\net5.0\KT.AdvertisementApp.Dtos.pdb

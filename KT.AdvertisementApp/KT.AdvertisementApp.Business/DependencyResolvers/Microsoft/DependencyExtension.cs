@@ -1,6 +1,13 @@
 ﻿using AutoMapper;
+using FluentValidation;
+using KT.AdvertisementApp.Business.Interfaces;
+using KT.AdvertisementApp.Business.Mappings.AutoMapper;
+using KT.AdvertisementApp.Business.Services;
+using KT.AdvertisementApp.Business.ValidationRules;
 using KT.AdvertisementApp.DataAccess.Contexts;
 using KT.AdvertisementApp.DataAccess.UnitOfWork;
+using KT.AdvertisementApp.Dtos.AdvertisementDtos;
+using KT.AdvertisementApp.Dtos.ProvidedServiceDtos;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -23,7 +30,8 @@ namespace KT.AdvertisementApp.Business.DependencyResolvers.Microsoft
 
             var mapperConfiguration = new MapperConfiguration(opt =>
             {
-                //opt.AddProfile();
+                opt.AddProfile(new ProvidedServiceProfile());
+                opt.AddProfile(new AdvertisementProfile());
             });
 
             var mapper = mapperConfiguration.CreateMapper();
@@ -31,6 +39,14 @@ namespace KT.AdvertisementApp.Business.DependencyResolvers.Microsoft
 
 
             services.AddScoped<IUow, Uow>();
+
+            services.AddTransient<IValidator<ProvidedServiceCreateDto>, ProvidedServiceCreateDtoValidator>();
+            services.AddTransient<IValidator<ProvidedServiceUpdateDto>, ProvidedServiceUpdateDtoValidator>();
+            services.AddTransient<IValidator<AdvertisementCreateDto>, AdvertisementCreateDtoValidator>();
+            services.AddTransient<IValidator<AdvertisementUpdateDto>, AdvertisementUpdateDtoValidator>();
+
+            services.AddScoped<IProvidedServiceService, ProvidedServiceService>();
+            services.AddScoped<IAdvertisementService, AdvertisementService>();
         }
     }
 }
