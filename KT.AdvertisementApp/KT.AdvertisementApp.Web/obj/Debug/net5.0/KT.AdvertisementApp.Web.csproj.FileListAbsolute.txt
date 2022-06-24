@@ -81,3 +81,5 @@ D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\obj\Debug\net5.0\KT.Advertise
 D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\obj\Debug\net5.0\KT.AdvertisementApp.Web.Views.pdb
 D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\obj\Debug\net5.0\Razor\Views\Home\HumanResource.cshtml.g.cs
+D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\obj\Debug\net5.0\Razor\Views\Account\SignUp.cshtml.g.cs
+D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\obj\Debug\net5.0\Razor\Views\Account\SignIn.cshtml.g.cs

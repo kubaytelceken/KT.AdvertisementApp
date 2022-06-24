@@ -26,8 +26,29 @@ using KT.AdvertisementApp.Dtos.AdvertisementDtos;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Dtos.AppUserDtos;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Dtos.GenderDtos;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Web.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"025c483b3ad59f57ebfb7870198dd7bab71594bf", @"/Views/Home/HumanResource.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a50a49cb874d0c8e9c49eaac99d0693c67320ef1", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d351f25d6a90286d238cf3748e23e9b19b5cdc66", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_HumanResource : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<AdvertisementListDto>>
     {
         #pragma warning disable 1998

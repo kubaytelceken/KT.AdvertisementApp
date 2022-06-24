@@ -7,6 +7,8 @@ using KT.AdvertisementApp.Business.ValidationRules;
 using KT.AdvertisementApp.DataAccess.Contexts;
 using KT.AdvertisementApp.DataAccess.UnitOfWork;
 using KT.AdvertisementApp.Dtos.AdvertisementDtos;
+using KT.AdvertisementApp.Dtos.AppUserDtos;
+using KT.AdvertisementApp.Dtos.GenderDtos;
 using KT.AdvertisementApp.Dtos.ProvidedServiceDtos;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -28,15 +30,6 @@ namespace KT.AdvertisementApp.Business.DependencyResolvers.Microsoft
                 opt.UseSqlServer(configuration.GetConnectionString("Local"));
             });
 
-            var mapperConfiguration = new MapperConfiguration(opt =>
-            {
-                opt.AddProfile(new ProvidedServiceProfile());
-                opt.AddProfile(new AdvertisementProfile());
-            });
-
-            var mapper = mapperConfiguration.CreateMapper();
-            services.AddSingleton(mapper);
-
 
             services.AddScoped<IUow, Uow>();
 
@@ -44,9 +37,23 @@ namespace KT.AdvertisementApp.Business.DependencyResolvers.Microsoft
             services.AddTransient<IValidator<ProvidedServiceUpdateDto>, ProvidedServiceUpdateDtoValidator>();
             services.AddTransient<IValidator<AdvertisementCreateDto>, AdvertisementCreateDtoValidator>();
             services.AddTransient<IValidator<AdvertisementUpdateDto>, AdvertisementUpdateDtoValidator>();
+            services.AddTransient<IValidator<AppUserCreateDto>, AppUserCreateDtoValidator>();
+            services.AddTransient<IValidator<AppUserUpdateDto>, AppUserUpdateDtoValidator>();
+            services.AddTransient<IValidator<AppUserLoginDto>, AppUserLoginDtoValidator>();
+
+
+            services.AddTransient<IValidator<GenderCreateDto>, GenderCreateDtoValidator>();
+            services.AddTransient<IValidator<GenderUpdateDto>, GenderUpdateDtoValidator>();
+
+
 
             services.AddScoped<IProvidedServiceService, ProvidedServiceService>();
             services.AddScoped<IAdvertisementService, AdvertisementService>();
+            services.AddScoped<IAppUserService, AppUserService>();
+            services.AddScoped<IGenderService, GenderService>();
         }
+
+
+      
     }
 }
