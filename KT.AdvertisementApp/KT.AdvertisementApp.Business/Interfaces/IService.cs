@@ -18,7 +18,7 @@ namespace KT.AdvertisementApp.Business.Interfaces
     {
         Task<IResponse<CreateDto>> CreateAsync(CreateDto providedServiceCreateDto);
         Task<IResponse<UpdateDto>> UpdateAsync(UpdateDto providedServiceUpdateDto);
-        Task<IResponse<IDto>> GetByIdAsync(int id);
+        Task<IResponse<IDto>> GetByIdAsync<IDto>(int id);
         Task<IResponse> RemoveAsync(int id);
         Task<IResponse<List<ListDto>>> GetAllAsync();
 

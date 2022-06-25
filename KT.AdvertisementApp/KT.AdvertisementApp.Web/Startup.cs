@@ -76,11 +76,9 @@ namespace KT.AdvertisementApp.Web
             
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
-            app.UseAuthentication();
-            app.UseAuthentication();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapDefaultControllerRoute();

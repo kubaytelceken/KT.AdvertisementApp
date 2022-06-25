@@ -26,14 +26,12 @@
                         <p>
                             @if (User.Identity.IsAuthenticated)
                 {
-
-
-<a href="#">Başvur</a>
+<a asp-controller="Advertisement" asp-action="Send" asp-route-advertisementId="@Model[i].Id" class="btn btn-primary btn-sm">Başvur</a>
                 }
                 else
                 {
 <div class="alert alert-light text-center">
-    Başvuru Yapabilmeniz İçin Kayıt Olmanız Gerekmektedir. <a href="#">Kayıt Ol</a>
+    Başvuru Yapabilmeniz İçin Giriş Yapmanız Gerekmektedir. <a class="btn btn-primary btn-sm" asp-action="SignIn" asp-controller="Account">Giriş Yap</a>
 </div>
                 }
 

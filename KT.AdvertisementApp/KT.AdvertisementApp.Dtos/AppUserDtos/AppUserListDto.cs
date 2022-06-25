@@ -1,4 +1,5 @@
-﻿using KT.AdvertisementApp.Dtos.Interfaces;
+﻿using KT.AdvertisementApp.Dtos.GenderDtos;
+using KT.AdvertisementApp.Dtos.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,5 +18,6 @@ namespace KT.AdvertisementApp.Dtos.AppUserDtos
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
         public int GenderId { get; set; }
+        public GenderListDto Gender { get; set; }
     }
 }

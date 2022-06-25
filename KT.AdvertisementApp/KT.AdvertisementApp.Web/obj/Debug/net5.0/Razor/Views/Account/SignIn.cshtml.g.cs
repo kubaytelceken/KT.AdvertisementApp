@@ -42,13 +42,48 @@ using KT.AdvertisementApp.Dtos.GenderDtos;
 #nullable disable
 #nullable restore
 #line 6 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Dtos.AdvertisementAppUserDtos;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Dtos.AdvertisementAppUserStatusDtos;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 8 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Dtos.MilitaryStatusDto;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 9 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Dtos.AppRoleDtos;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 10 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
 using KT.AdvertisementApp.Web.Models;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Common.Enums;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a953bd823efcc57f822dea772bef6bcc11616220", @"/Views/Account/SignIn.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d351f25d6a90286d238cf3748e23e9b19b5cdc66", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"12a9801d5a3709b26bfaf94d130c0dc5117ad995", @"/Views/_ViewImports.cshtml")]
     public class Views_Account_SignIn : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<AppUserLoginDto>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("form-control"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -97,9 +132,9 @@ using KT.AdvertisementApp.Web.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<div class=\"mt-4\">\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a953bd823efcc57f822dea772bef6bcc116162207664", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a953bd823efcc57f822dea772bef6bcc116162208710", async() => {
                 WriteLiteral("\r\n\r\n\r\n        <div class=\"mb-3\">\r\n            <label>Kullanıcı Adı :</label>\r\n            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a953bd823efcc57f822dea772bef6bcc116162208020", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a953bd823efcc57f822dea772bef6bcc116162209066", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -121,7 +156,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"mb-3\">\r\n            <label>Şifreniz :</label>\r\n            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a953bd823efcc57f822dea772bef6bcc116162209694", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a953bd823efcc57f822dea772bef6bcc1161622010740", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -145,7 +180,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"form-check\">\r\n            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "a953bd823efcc57f822dea772bef6bcc1161622011549", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "a953bd823efcc57f822dea772bef6bcc1161622012596", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -180,7 +215,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
         </div>
 
         ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a953bd823efcc57f822dea772bef6bcc1161622013714", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a953bd823efcc57f822dea772bef6bcc1161622014761", async() => {
                     WriteLiteral("\r\n\r\n        ");
                 }
                 );

@@ -9,7 +9,7 @@ namespace KT.AdvertisementApp.Web.Extensions
 {
     public static  class ControllerExtensions
     {
-        public static IActionResult ResponseRedirectAction<T>(this Controller controller , IResponse<T> response , string actionName)
+        public static IActionResult ResponseRedirectAction<T>(this Controller controller , IResponse<T> response , string actionName,string controllerName="")
         {
             if(response.ResponseType == ResponseType.NotFound)
             {
@@ -23,7 +23,11 @@ namespace KT.AdvertisementApp.Web.Extensions
                 }
                 return controller.View(response.Data);
             }
-            return controller.RedirectToAction(actionName);
+            if (string.IsNullOrWhiteSpace(controllerName))
+            {
+                return controller.RedirectToAction(actionName);
+            }
+            return controller.RedirectToAction(actionName,controllerName);
         }
 
         public static IActionResult ResponseView<T>(this Controller controller, IResponse<T> response)

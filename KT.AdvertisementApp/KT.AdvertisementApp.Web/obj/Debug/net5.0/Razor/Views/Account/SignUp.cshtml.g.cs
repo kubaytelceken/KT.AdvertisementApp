@@ -42,13 +42,48 @@ using KT.AdvertisementApp.Dtos.GenderDtos;
 #nullable disable
 #nullable restore
 #line 6 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Dtos.AdvertisementAppUserDtos;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Dtos.AdvertisementAppUserStatusDtos;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 8 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Dtos.MilitaryStatusDto;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 9 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Dtos.AppRoleDtos;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 10 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
 using KT.AdvertisementApp.Web.Models;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Common.Enums;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2dc108c2cb9988fd7eb1ce06d14a294e68f797eb", @"/Views/Account/SignUp.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d351f25d6a90286d238cf3748e23e9b19b5cdc66", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"12a9801d5a3709b26bfaf94d130c0dc5117ad995", @"/Views/_ViewImports.cshtml")]
     public class Views_Account_SignUp : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<UserCreateModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("form-control"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -98,9 +133,9 @@ using KT.AdvertisementApp.Web.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<div class=\"mt-4\">\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb7565", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb8611", async() => {
                 WriteLiteral("\r\n\r\n        <div class=\"mb-3\">\r\n            <label>Adınız :</label>\r\n            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb7910", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb8956", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -122,7 +157,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"mb-3\">\r\n            <label>Soyadınız :</label>\r\n            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb9586", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb10632", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -144,7 +179,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"mb-3\">\r\n            <label>Telefon No :</label>\r\n            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb11262", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb12309", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -166,7 +201,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"mb-3\">\r\n            <label>Email :</label>\r\n            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb12937", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb13984", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -188,9 +223,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"mb-3\">\r\n            <label>Cinsiyet :</label>\r\n            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb14609", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb15656", async() => {
                     WriteLiteral("\r\n                ");
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb14894", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb15941", async() => {
                         WriteLiteral("Cinsiyet Seçiniz");
                     }
                     );
@@ -235,7 +270,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"mb-3\">\r\n            <label>Kullanıcı Adı :</label>\r\n            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb18134", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb19181", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -257,7 +292,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"mb-3\">\r\n            <label>Şifreniz :</label>\r\n            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb19809", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb20856", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -281,7 +316,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"mb-3\">\r\n            <label>Şifre Tekrar :</label>\r\n            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb21704", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb22751", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -305,7 +340,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"mb-3\">\r\n            <button type=\"submit\" class=\"btn btn-success btn-sm\">Kayıt Ol</button>\r\n        </div>\r\n\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb23669", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2dc108c2cb9988fd7eb1ce06d14a294e68f797eb24716", async() => {
                     WriteLiteral("\r\n\r\n        ");
                 }
                 );

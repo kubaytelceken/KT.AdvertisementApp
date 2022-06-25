@@ -2,6 +2,7 @@
 using FluentValidation;
 using KT.AdvertisementApp.Business.Interfaces;
 using KT.AdvertisementApp.Common.Enums;
+using KT.AdvertisementApp.Dtos.AdvertisementDtos;
 using KT.AdvertisementApp.Dtos.AppUserDtos;
 using KT.AdvertisementApp.Web.Extensions;
 using KT.AdvertisementApp.Web.Models;
@@ -33,7 +34,8 @@ namespace KT.AdvertisementApp.Web.Controllers
 
         public async Task<IActionResult> SignUp()
         {
-            var response = await _genderService.GetAllAsync();
+            
+               var response = await _genderService.GetAllAsync();
             var model = new UserCreateModel();
             model.Genders = new Microsoft.AspNetCore.Mvc.Rendering.SelectList(response.Data,"Id","Definition");
             return View(model);
@@ -114,5 +116,8 @@ namespace KT.AdvertisementApp.Web.Controllers
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Index", "Home");
         }
+
+
+  
     }
 }

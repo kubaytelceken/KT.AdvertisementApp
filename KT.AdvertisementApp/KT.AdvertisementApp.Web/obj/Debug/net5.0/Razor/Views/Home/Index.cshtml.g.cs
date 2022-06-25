@@ -42,13 +42,48 @@ using KT.AdvertisementApp.Dtos.GenderDtos;
 #nullable disable
 #nullable restore
 #line 6 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Dtos.AdvertisementAppUserDtos;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Dtos.AdvertisementAppUserStatusDtos;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 8 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Dtos.MilitaryStatusDto;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 9 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Dtos.AppRoleDtos;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 10 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
 using KT.AdvertisementApp.Web.Models;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "D:\Web\KT.AdvertisementApp\KT.AdvertisementApp.Web\Views\_ViewImports.cshtml"
+using KT.AdvertisementApp.Common.Enums;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f9837c3d53e736f274b9900d5371756f5df0fa8a", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d351f25d6a90286d238cf3748e23e9b19b5cdc66", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"12a9801d5a3709b26bfaf94d130c0dc5117ad995", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<ProvidedServiceListDto>>
     {
         #pragma warning disable 1998

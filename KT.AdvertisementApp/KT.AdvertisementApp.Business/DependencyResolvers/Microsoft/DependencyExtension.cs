@@ -6,6 +6,7 @@ using KT.AdvertisementApp.Business.Services;
 using KT.AdvertisementApp.Business.ValidationRules;
 using KT.AdvertisementApp.DataAccess.Contexts;
 using KT.AdvertisementApp.DataAccess.UnitOfWork;
+using KT.AdvertisementApp.Dtos.AdvertisementAppUserDtos;
 using KT.AdvertisementApp.Dtos.AdvertisementDtos;
 using KT.AdvertisementApp.Dtos.AppUserDtos;
 using KT.AdvertisementApp.Dtos.GenderDtos;
@@ -44,6 +45,7 @@ namespace KT.AdvertisementApp.Business.DependencyResolvers.Microsoft
 
             services.AddTransient<IValidator<GenderCreateDto>, GenderCreateDtoValidator>();
             services.AddTransient<IValidator<GenderUpdateDto>, GenderUpdateDtoValidator>();
+            services.AddTransient<IValidator<AdvertisementAppUserCreateDto>, AdvertisementAppUserCreateDtoValidator>();
 
 
 
@@ -51,6 +53,7 @@ namespace KT.AdvertisementApp.Business.DependencyResolvers.Microsoft
             services.AddScoped<IAdvertisementService, AdvertisementService>();
             services.AddScoped<IAppUserService, AppUserService>();
             services.AddScoped<IGenderService, GenderService>();
+            services.AddScoped<IAdvertisementAppUserService, AdvertisementAppUserService>();
         }
 
 
